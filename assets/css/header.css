@@ -76,6 +76,6 @@
     color: rgb(230, 0, 0) ;
   }
 }
-.burger:hover>.menu{
+.burger:hover~.menu{
   display: inline-block;
 }
