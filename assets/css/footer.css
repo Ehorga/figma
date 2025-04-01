@@ -3,12 +3,15 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: rgb(240, 231, 231);
+    background-color: rgb(205, 204, 204);
+    height: 80px;
+    color: rgb(137, 137, 137);
 }
 
 .footer-menu a {
     padding: 30px;
     display: flex;
+    color: rgb(137, 137, 137) ;
    
 }
 
@@ -24,5 +27,14 @@
 }
 
 @media screen and (min-width: 768px) {
-   
+    .footer-menu {
+        display: flex;
+        
+       
+    }
+    .footer-menu a {
+        padding: 30px;
+        
+       
+    }
 }
