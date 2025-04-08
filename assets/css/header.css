@@ -47,6 +47,7 @@
     margin-right: auto;
     margin-left: 56px;
   }
+
 }
 @media screen and (min-width: 1200px) {
   .menu {
@@ -75,7 +76,16 @@
   .active{
     color: rgb(230, 0, 0) ;
   }
+  .unuicorn-big{
+    display: inline-block;
+  }
+  .mobile-unicorn{
+    display: none;
+  }
 }
 .burger:hover~.menu{
   display: inline-block;
+}
+.unuicorn-big{
+  display: none;
 }
