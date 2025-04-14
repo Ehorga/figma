@@ -34,6 +34,9 @@ main{
 .unuicorn-big{
     display: none;
 }
+.main-social{
+    display: none;
+}
 @media screen and (min-width: 1200px){
 
 }
@@ -43,7 +46,7 @@ main{
 }
 .unuicorn-big{
     display: block;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 .content{
     flex-direction: row;
@@ -63,7 +66,4 @@ main{
    margin-top: 50px;  
    display: flex;
 }
-}
-.main-social{
-    display: none;
 }

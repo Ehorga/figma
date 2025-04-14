@@ -83,9 +83,6 @@
     display: none;
   }
 }
-.burger:hover~.menu{
+.burger:hover>.menu{
   display: inline-block;
-}
-.unuicorn-big{
-  display: none;
 }
