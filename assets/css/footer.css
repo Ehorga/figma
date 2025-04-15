@@ -16,7 +16,7 @@
 }
 
 .footer-menu {
-    display: flex;
+    display: none;
     list-style: none; 
    
 }

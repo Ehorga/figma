@@ -35,6 +35,11 @@
   top: 40%;
   left: 45%;
 }
+.main-social{
+  display: flex;
+  justify-content: space-between;
+}
+
 @media screen and (min-width: 768px) {
     .title{
         font-size: 72px;
@@ -42,12 +47,26 @@
     .map{
         height: 540px;
     }
+    .main-social{
+      
+      justify-content: start;
+    }
 }
 @media screen and (min-width: 1200px){
     .main-contact{
         flex-direction: row;
+        display: flex;
     }
     .out-map{
         flex-grow: 1 ;
+    }
+    .main-social{
+      flex-direction: column;
+      order: -1;
+    }
+    .main-contact>article{
+      padding-left: 50px ;
+      padding-right: 100px;
+
     }
 }
